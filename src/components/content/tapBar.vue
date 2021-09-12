@@ -25,8 +25,8 @@ import tapBariteam from '../common/tapBar-iteam.vue'
 export default {
   name: "tapBar",
   components: {
-    tapBariteam
-  },
+    tapBariteam,
+  }
 };
 </script>
 
