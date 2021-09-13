@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import tapBariteam from '../common/tapBar-iteam.vue'
+import tapBariteam from '../common/tapBariteam.vue'
 
 export default {
   name: "tapBar",
@@ -31,6 +31,7 @@ export default {
 </script>
 
 <style>
+
 .tapBar {
   height: 49px;
   width: 100%;

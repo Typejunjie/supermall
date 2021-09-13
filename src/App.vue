@@ -5,21 +5,20 @@
 </template>
 
 <script>
-import tapBar from './components/content/tapBar.vue'
+import tapBar from "./components/content/tapBar.vue";
 
 export default {
-  el: '#app',
-  data () {
-    return {
-      
-    }
+  name: 'vue',
+  data() {
+    return {};
   },
   components: {
     tapBar,
-  }
-}
+  },
+};
 </script>
 
 <style>
+@import url('./assetss/reset.css');
 
 </style>

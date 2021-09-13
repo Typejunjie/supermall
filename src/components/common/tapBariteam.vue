@@ -1,5 +1,5 @@
 <template>
-    <div class="iteam" @click="iteamclick()">
+    <div class="iteam" >
       <slot name='iteamimg'></slot>
       <slot name='iteamtext'></slot>
     </div>
@@ -14,15 +14,13 @@ export default {
     },
     props: ['path'],
     methods: {
-        iteamclick() {
-            this.$router.replace(this.path)
-        }
+        
     }
 }
 </script>
 
 <style>
-@import url('../../assets/reset.css');
+@import url('../../assets/css/all.min.css');
 
 .iteam{
     font-size: 14px;
