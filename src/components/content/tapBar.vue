@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import tapBariteam from '../common/tapBariteam.vue'
+import tapBariteam from 'components/common/tapBariteam.vue'
 
 export default {
   name: "tapBar",

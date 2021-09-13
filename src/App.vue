@@ -1,14 +1,17 @@
 <template>
   <div id="app">
+    <router-view></router-view>
     <tap-bar></tap-bar>
   </div>
 </template>
 
 <script>
-import tapBar from "./components/content/tapBar.vue";
+import tapBar from "components/content/tapBar.vue";
+import router from './router/index.js'
 
 export default {
   name: 'vue',
+  router,
   data() {
     return {};
   },
@@ -19,6 +22,6 @@ export default {
 </script>
 
 <style>
-@import url('./assetss/reset.css');
+@import url('./assets/reaset.css');
 
 </style>
