@@ -23,7 +23,6 @@ export default {
 </script>
 
 <style>
-@import url("~@/assets/css/all.min.css");
 
 .iteam {
   font-size: 14px;

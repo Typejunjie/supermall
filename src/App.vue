@@ -23,5 +23,5 @@ export default {
 
 <style>
 @import url('./assets/reaset.css');
-
+@import url('./assets/css/all.min.css');
 </style>
