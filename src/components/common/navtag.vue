@@ -1,5 +1,5 @@
 <template>
-  <div class="navtag">
+  <div class="navtag" :style="bgcolor">
     <div class="left"><slot name="left"></slot></div>
     <div class="content"><slot name="content"></slot></div>
     <div class="right"><slot name="right"></slot></div>
@@ -9,6 +9,9 @@
 <script>
 export default {
   name: "navtag",
+  props: {
+    'bgcolor': ''
+  }
 };
 </script>
 
