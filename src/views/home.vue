@@ -1,9 +1,9 @@
 <template>
     <div>
-        <navtag :bgcolor='"background: pink"'>
-           <div slot="left" class="fas fa-angle-left left"></div>
-           <div slot="content">中间</div>
-           <div slot="right">右边</div>
+        <navtag :bgcolor='"background: #bfa"'>
+           <div slot="left"></div>
+           <div slot="content">聚划算</div>
+           <div slot="right"></div>
         </navtag>
     </div>
 </template>
@@ -20,8 +20,5 @@ export default {
 </script>
 
 <style>
-.left{
-    font-size: 25px;
-    margin-left: -10px;
-}
+
 </style>
