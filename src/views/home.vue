@@ -14,7 +14,7 @@
 
 <script>
 import navtag from 'components/common/navtag.vue'
-import chart from 'components/common/chart.taken.vue'
+import chart from 'components/common/chart2.0.vue'
 
 export default {
     name: 'home',
