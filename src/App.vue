@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" @touchmove="_default">
     <router-view></router-view>
     <tap-bar></tap-bar>
   </div>
@@ -14,6 +14,11 @@ export default {
   router,
   data() {
     return {};
+  },
+  methods: {
+    _default(event) {
+      event.preventDefault()
+    }
   },
   components: {
     tapBar,
