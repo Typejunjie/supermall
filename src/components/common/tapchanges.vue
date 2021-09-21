@@ -40,9 +40,10 @@ export default {
     line-height: 40px;
 }
 .tapbox span{
-    padding: 5px;
+    padding: 8px;
+    margin-bottom: -3px;
 }
 .tapbox .active{
-    border-bottom: 3px solid pink;
+    border-bottom: 3px solid rgb(192, 76, 76);
 }
 </style>
