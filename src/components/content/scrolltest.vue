@@ -1,27 +1,8 @@
 <template>
     <div class="wrapper" ref="div">
-        <ul>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-        </ul>
+        <div>
+            <slot></slot>
+        </div>
     </div>
 </template>
 
@@ -31,7 +12,9 @@ import BScroll from 'better-scroll'
 export default {
   name: 'scrolltest',
   mounted () {
-      new BScroll(this.$refs.div,{})
+      new BScroll(this.$refs.div,{
+          click: true
+      })
   }  
 }
 
@@ -39,7 +22,7 @@ export default {
 
 <style>
   .wrapper{
-      height: 200px;
+      height: 100vh;
       overflow: hidden;
   }
 </style>
