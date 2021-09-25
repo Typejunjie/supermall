@@ -11,11 +11,14 @@ import BScroll from 'better-scroll'
 
 export default {
   name: 'scrolltest',
+  props: {
+      BScroll: {
+          type: Object,
+      }
+  },
   mounted () {
-      new BScroll(this.$refs.div,{
-          click: true
-      })
-  }  
+      new BScroll(this.$refs.div,this.BScroll)
+  },
 }
 
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <scrolltest>
+    <scrolltest :BScorll="{click: true}">
         <navtag :bgcolor="'background: #bfa'">
         <div slot="left"></div>
         <div slot="content">聚划算</div>
